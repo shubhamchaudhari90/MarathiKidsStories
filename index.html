@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मुलांसाठी मराठी गोष्टी | Kids Stories in Marathi</title>
+    <meta name="description" content="मुलांसाठी रंजक मराठी गोष्टी - ससा आणि कासव, चतुर कोल्हा, हत्ती आणि मुंगी, बुद्धिमान खर्गोश, लालची कुत्रा">
+    
+    <!-- Google Fonts - Mukta (Marathi) -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Mukta', sans-serif;
+            background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+            color: #333;
+            line-height: 1.7;
+            padding: 20px 0;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #ff6b6b;
+            color: white;
+            border-radius: 30px 30px 30px 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+        h1 span { color: #ffd93d; }
+        p.subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .story-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .story-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        .story-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .story-content {
+            padding: 20px;
+        }
+        .story-title {
+            font-size: 1.5rem;
+            color: #ff6b6b;
+            margin-bottom: 12px;
+        }
+        .story-text {
+            font-size: 1.05rem;
+            color: #444;
+        }
+        .story-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    /* Make, add these 3 lines */
+    display: flex;
+    flex-direction: column;
+    height: 100%;            /* makes all cards same height */
+}
+
+.story-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;            /* takes all available space */
+    justify-content: space-between;  /* pushes moral to bottom */
+}
+
+.moral {
+    margin-top: 15px;
+    padding: 12px;
+    background: #ffd93d;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #333;
+    
+    /* this pushes it to the very bottom */
+    margin-top: auto;        /* overrides the old margin-top */
+}
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 50px;
+            background: #333;
+            color: white;
+            font-size: 1.1rem;
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 2.2rem; }
+            .story-title { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>मुलांसाठी <span>मराठी गोष्टी</span></h1>
+        <p class="subtitle">रंजक आणि शिकवणी देणाऱ्या गोष्टींचा खजिना!</p>
+    </header>
+
+    <div class="container">
+        <div class="stories-grid">
+
+            <!-- Story 1: ससा आणि कासव -->
+            <div class="story-card">
+                <img src="https://images.unsplash.com/photo-1582588672539-3f61b71a999b?w=600" alt="ससा आणि कासव" class="story-img">
+                <div class="story-content">
+                    <h3 class="story-title">ससा आणि कासव</h3>
+                    <p class="story-text">
+                        एकदा एक खूप वेगाने पळणारा ससा आणि हळू चालणारा कासव यांच्यात शर्यत झाली. ससा खूप पुढे निघाला आणि झोपायला गेला. 
+                        कासव हळूहळू चालत राहिला आणि शेवटी जिंकला!
+                    </p>
+                    <div class="moral">शिकवण: हळू आणि खंबीरपणे चालणारा नेहमी जिंकतो.</div>
+                </div>
+            </div>
+
+            <!-- Story 2: चतुर कोल्हा आणि बकरी -->
+            <div class="story-card">
+                <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=600" alt="चतुर कोल्हा" class="story-img">
+                <div class="story-content">
+                    <h3 class="story-title">चतुर कोल्हा आणि बकरी</h3>
+                    <p class="story-text">
+                        एक चतुर कोल्हा नदी ओलांडायची होती. त्याने बकरीला सांगितले, "माझ्यावर बस, मी तुला पलीकडे नेतो." 
+                        नदीच्या मध्यभागी त्याने बकरीला पाण्यात ढकलण्याचा प्रयत्न केला, पण बकरी सावध होती shellने शिंगाने कोल्ह्याला पाण्यात पाडले!
+                    </p>
+                    <div class="moral">शिकवण: बुद्धीने कोणालाही हरवता येते.</div>
+                </div>
+            </div>
+
+            <!-- Story 3: हत्ती आणि मुंगी -->
+            <div class="story-card">
+                <img src="https://images.unsplash.com/photo-1559058777-f1b97f7d0d07?w=600" alt="हत्ती आणि मुंगी" class="story-img">
+                <div class="story-content">
+                    <h3 class="story-title">हत्ती आणि मुंगी</h3>
+                    <p class="story-text">
+                        एक गर्विष्ठ हत्ती म्हणाला, "मी सर्वात बलवान आहे!" तेव्हा एक छोटी मुंगी हत्तीच्या सोंडेत गेली. 
+                        हत्तीला खूप त्रास झाला आणि त्याने मुंगीची माफी मागितली.
+                    </p>
+                    <div class="moral">शिकवण: आकाराने मोठेपणा ठरत नाही.</div>
+                </div>
+            </div>
+
+            <!-- Story 4: खर्गोश आणि सिंह -->
+            <div class="story-card">
+                <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600" alt="खर्गोश आणि सिंह" class="story-img">
+                <div class="story-content">
+                    <h3 class="story-title">बुद्धिमान खर्गोश आणि सिंह</h3>
+                    <p class="story-text">
+                        जंगलाचा राजा सिंह सर्वांना मारत होता. एक बुद्धिमान खर्गोश त्याला म्हणाला, 
+                        "महाराज, दुसरा मोठा सिंह आला आहे!" आणि त्याला विहिरीत पडायला लावले.
+                    </p>
+                    <div class="moral">शिकवण: बुद्धी बलापेक्षा मोठी असते.</div>
+                </div>
+            </div>
+
+            <!-- Story 5: लालची कुत्रा -->
+            <div class="story-card">
+                <img src="https://images.unsplash.com/photo-1568640343029-3b4e1f2824e2?w=600" alt="लालची कुत्रा" class="story-img">
+                <div class="story-content">
+                    <h3 class="story-title">लालची कुत्रा</h3>
+                    <p class="story-text">
+                        एक कुत्रा हाड घेऊन पूल ओलांडत होता. पाण्यातील प्रतिबिंब पाहून त्याला वाटले दुसऱ्या कुत्र्याजवळही हाड आहे. 
+                        तो भुंकला आणि त्याचे हाड पाण्यात पडले.
+                    </p>
+                    <div class="moral">शिकवण: लोभ करणारा नेहमी हातचा मालही गमावतो.</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 सर्व हक्क संरक्षित</p>
+    </footer>
+
+</body>
+</html>
